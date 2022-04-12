@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suit1" parallel="tests" thread-count="2">
+
+    <test name="Test on Firefox">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="netfinansUI.hesapBakiyeleri.C2421"></class>
+        </classes>
+    </test>
+
+    <test name="Test on Cherome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="netfinansUI.hesapBakiyeleri.C2421"></class>
+        </classes>
+    </test>
+
+</suite>
